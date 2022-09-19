@@ -80,8 +80,7 @@ const Signup = () => {
                     <div className="auth-email">
                             <label htmlFor="email">E-Mail Address</label>
                             <input 
-                            type="text" 
-                            placeholder="test@gmail.com" 
+                            type="text"                             
                             className="input input-text"
                             value={user.email}
                             onChange={changeHandler} 
@@ -91,8 +90,7 @@ const Signup = () => {
                         <div className="auth-pwd">
                             <label htmlFor="pwd">Password</label>
                             <input 
-                            type="password" 
-                            placeholder="*****" 
+                            type="password"                            
                             className="input input-password"
                             value={user.password}
                             onChange={changeHandler}
@@ -102,8 +100,7 @@ const Signup = () => {
                         <div className="auth-pwd">
                             <label htmlFor="pwd">Confirm Password</label>
                             <input 
-                            type="password" 
-                            placeholder="*****" 
+                            type="password"                             
                             className="input input-password"
                             value={user.confirmPassword}
                             onChange={changeHandler}
