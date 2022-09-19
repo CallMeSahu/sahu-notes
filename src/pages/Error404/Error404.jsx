@@ -6,7 +6,7 @@ const Error404 = () => {
   return (
     <div className="error-container flex-center">
       <h1>404. Page not found!</h1>
-      <button className="btn link-btn go-back-btn" onClick={() => navigate("/login")}>Go Back</button>
+      <button className="btn link-btn go-back-btn" onClick={() => navigate("/")}>Go Back</button>
     </div>
   );
 };
