@@ -1,10 +1,13 @@
-import { useNavigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import "./error.css";
 
 const Error404 = () => {
-  
+  const navigate = useNavigate();
   return (
-    <div></div>
+    <div className="error-container flex-center">
+      <h1>404. Page not found!</h1>
+      <button className="btn link-btn go-back-btn" onClick={() => navigate("/login")}>Go Back</button>
+    </div>
   );
 };
 
