@@ -19,8 +19,8 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: 1400px;
+    margin: 0 2rem;
     width: 100%;
     font-size: 1.3rem;
     align-items: flex-end;

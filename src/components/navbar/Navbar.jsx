@@ -31,7 +31,7 @@ const Navbar = () => {
             <img className="logo-img" src={logo} />
             <h3 className="logo-text">Sahu Notes</h3>
         </div>
-        <div>
+        <div className="nav-link">
           <button className="btn link-btn"  onClick={logoutHandler}>Logout</button>
         </div>
       </nav>
