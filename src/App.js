@@ -12,7 +12,7 @@ function App() {
           position="top-right"
           autoClose="500"
           limit="1"
-          style={{ top: "4.5em", right: "0em" }}
+          style={{ top: "1em", right: "0em" }}
         />
       <Routes>
         <Route path="/login" element={<Login />}></Route>
