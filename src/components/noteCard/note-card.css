@@ -1,0 +1,130 @@
+.note-card-container {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  width: 30%;
+  padding: 1rem;
+  overflow: hidden;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.red{
+  background-color: var(--red-color2);
+}
+
+
+.blue{
+  background-color: var(--blue-color);
+}
+
+.grey{
+  background-color: var(--light-color);
+}
+
+.purple{
+  background-color: var(--purple-color);
+}
+
+.pink{
+  background-color: var(--pink-color);
+}
+
+.note-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-title-action {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.pin-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  color: var(--ligtest-color);
+  cursor: pointer;
+}
+
+.note-title span {
+  font-size: 1.7rem;
+}
+
+.Low{
+  color: var(--yellow-color);
+  font-weight: bolder;
+}
+.Medium{
+  color: var(--green-color);
+  font-weight: bolder;
+}
+
+.High{
+  color: var(--red-color);
+  font-weight: bolder;
+}
+
+.form-control .form-control-content {
+  margin: 5px 0;
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+
+.note-date {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.note-date p {
+  display: flex;
+  align-items: flex-end;
+}
+.note-action-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.note-title-action span{
+  font-size: 1.3rem;
+}
+.note-title-action .bxs-pin {
+  color: var(--ligtest-color);
+}
+.note-action-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.note-action-container button i {
+  font-size: 2rem;
+  color: var(--ligtest-color);
+}
+
+.note-action-container button i:active {
+  color: var(--black-color);
+}
+
+.tagName{
+  font-size: 1.3rem;
+  border-radius: 10px;
+  background-color: var(--light-color);
+  display: inline;
+  padding: 2px 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .note-card-container {
+    width: 100%;
+  }
+}

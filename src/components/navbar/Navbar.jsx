@@ -1,21 +1,9 @@
 import { useSidebar, useAuth } from "../../context";
-import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
 import "./navbar.css";
 import logo from "../../assets/logo.png"
 
 const Navbar = () => {
-  const navigate = useNavigate();
   const { setSidebar } = useSidebar();
-  const { authDispatch } = useAuth();
-
-  const logoutHandler = () => {
-    navigate("/");
-    localStorage.removeItem("token");
-    localStorage.removeItem("user");
-    authDispatch({ type: "LOGOUT" });
-    toast.success("Successfully Logged Out");
-  };
 
   return (
     <nav className="nav">        
@@ -30,9 +18,6 @@ const Navbar = () => {
           </span>
             <img className="logo-img" src={logo} />
             <h3 className="logo-text">Sahu Notes</h3>
-        </div>
-        <div className="nav-link">
-          <button className="btn link-btn"  onClick={logoutHandler}>Logout</button>
         </div>
       </nav>
   );
