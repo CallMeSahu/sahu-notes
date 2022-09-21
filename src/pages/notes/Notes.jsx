@@ -73,7 +73,7 @@ const Notes = () => {
           <div className="notes-category-container">
             {pinNote.length > 0 ? (
               <div className="notes-category">
-                <h2>Pinned Notes</h2>
+                <h3>Pinned Notes</h3>
                 <div className="saved-notes">
                   {pinNote.map((note) => (
                     <NoteCard
@@ -91,7 +91,7 @@ const Notes = () => {
             <div className="notes-category">
               {unpinNote.length > 0 ? (
                 <>
-                  <h2>All Notes</h2>
+                  <h3>All Notes</h3>
                   <div className="saved-notes">
                     {sortedNoteByPriority.map((note) => (
                       <NoteCard

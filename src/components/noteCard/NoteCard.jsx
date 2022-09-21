@@ -44,7 +44,7 @@ const NoteCard = ({ note, setUpdateNote, setCreateNoteModal }) => {
         <form>
           <div className="form-control">
             <div className="note-title">
-              <h1>{note.title}</h1>
+              <h3>{note.title}</h3>
               <div className="note-title-action">
                 <span className={`${note.priority}`}>
                   {note.priority.toUpperCase()}
