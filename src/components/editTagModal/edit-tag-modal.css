@@ -27,6 +27,7 @@
   color: var(--danger);
 }
 
+
 .tag-name {
   border: 1px solid var(--lightGrey);
   padding: 0.5rem;
@@ -64,4 +65,5 @@
 
 .exist-list-item p{
   font-size: 1.1rem;
+  margin-left: 1rem;
 }

@@ -62,9 +62,6 @@ const EditTagModal = ({ tagModal, setTagModal }) => {
                 {tags.map((tag) => (
                   <li className="exist-list-item" key={tag}>
                     <p>{capitalizeStr(tag)}</p>
-                    <button>
-                      <i className="bx bx-x"></i>
-                    </button>
                   </li>
                 ))}
               </ul>
