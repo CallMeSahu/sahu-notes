@@ -29,7 +29,7 @@ const Archive = () => {
           {archive.length !== 0 ? (
             <>
               <div className="notes-category">
-                <h1>Archive Notes</h1>
+                <h3>Archive Notes</h3>
                 <div className="saved-notes">
                   {archive.map((archiveData) => (
                     <ArchiveCard
