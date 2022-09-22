@@ -26,7 +26,8 @@ const SideBar = () => {
   };
 
   return (
-    <div className={`sidebar ${sidebar ? "active" : ""}`}>
+    <>
+      <div className={`sidebar ${sidebar ? "active" : ""}`}>
         <ul>
           <li className="sidebarListItems">
             <i className="bx bx-bulb"></i>
@@ -68,6 +69,10 @@ const SideBar = () => {
           </li>
         </ul>
       </div>
+      {tagModal ? (
+        <EditTagModal tagModal={tagModal} setTagModal={setTagModal} />
+      ) : null}
+    </>
   );
 };
 
