@@ -30,7 +30,7 @@ const Trash = () => {
           {trash.length !== 0 ? (
             <>
               <div className="notes-category">
-                <h1>Trash Notes</h1>
+                <h3>Trash Notes</h3>
                 <div className="saved-notes">
                   {trash.map((trashData) => (
                     <TrashCard key={trashData._id} trashData={trashData} />
