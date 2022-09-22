@@ -5,7 +5,7 @@ const EmptyArchive = () => {
       <div className="emptyTrashContatiner flex-center">
         <ul>
           <li className="trash-list flex-center">          
-            <h2>No Notes in Archive</h2>
+            <h2>Archive is Empty!</h2>
           </li>
         </ul>
       </div>
